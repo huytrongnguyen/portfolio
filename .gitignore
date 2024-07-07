@@ -10,6 +10,20 @@
 *.userosscache
 *.sln.docstates
 
+.DS_Store
+.parcel-cache
+.vscode
+node_modules
+pgdata
+dist
+bin
+obj
+tmp
+appsettings.*.json
+launchSettings.json
+docker-compose.yml
+yarn.lock
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

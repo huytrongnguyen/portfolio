@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "parcel src/Portfolio/ClientApp/app.html --dist-dir dist --no-cache -p 8585 --hmr-port 8586",
+    "build": "parcel build src/Portfolio/ClientApp/app.html --dist-dir src/Mdm/wwwroot --no-source-maps --no-cache --no-autoinstall --no-content-hash"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.24.1",
+    "rosie-ui": "0.1.10"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.12.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@types/react-router-dom": "5.3.3",
+    "buffer": "6.0.3",
+    "parcel": "2.12.0",
+    "process": "0.11.10",
+    "typescript": "5.5.3"
+  },
+  "alias": {
+    "core": "./src/Portfolio/ClientApp/core",
+    "services": "./src/Portfolio/ClientApp/services"
+  }
+}

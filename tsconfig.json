@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": [ "dom", "esnext" ],
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "baseUrl": "./src/Portfolio/ClientApp",
+    "removeComments": true,
+    "declaration": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
