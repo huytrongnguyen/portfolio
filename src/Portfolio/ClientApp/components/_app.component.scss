@@ -1,0 +1,7 @@
+@import '../../../../node_modules/rosie-ui/scss/mixin';
+
+@import './ux/app-header.component';
+@import './ux/app-body.component';
+@import './ux/navigation.component';
+
+html, body, main, .app, .app-wrapper, .app-body, #react-root { @include fullscreen(); }

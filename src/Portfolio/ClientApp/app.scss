@@ -1,0 +1,25 @@
+// Include parts of Rosie and Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import '../../../node_modules/bootstrap/scss/functions';
+
+// 2. Include any default variable overrides here
+@import 'styles/variables';
+@import '../../../node_modules/rosie-ui/scss/variables';
+
+// 3. Include all of Bootstrap
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+// 4. Include remainder of required Rosie stylesheets
+@import '../../../node_modules/rosie-ui/scss/mixin';
+@import '../../../node_modules/rosie-ui/scss/reset';
+@import '../../../node_modules/rosie-ui/scss/utilities';
+@import '../../../node_modules/rosie-ui/scss/components';
+
+// 5. Include remainder of required parts
+$fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/solid';
+
+// 6. Add additional custom code here
+@import 'components/app.component';

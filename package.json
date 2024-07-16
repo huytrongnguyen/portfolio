@@ -3,13 +3,15 @@
   "version": "0.0.1",
   "scripts": {
     "start": "parcel src/Portfolio/ClientApp/app.html --dist-dir dist --no-cache -p 8585 --hmr-port 8586",
-    "build": "parcel build src/Portfolio/ClientApp/app.html --dist-dir src/Mdm/wwwroot --no-source-maps --no-cache --no-autoinstall --no-content-hash"
+    "build": "parcel build src/Portfolio/ClientApp/app.html --dist-dir src/Portfolio/wwwroot --no-source-maps --no-cache --no-autoinstall --no-content-hash"
   },
   "dependencies": {
+    "jquery": "3.7.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "6.24.1",
-    "rosie-ui": "0.1.10"
+    "rosie-ui": "0.1.10",
+    "toastr": "2.1.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.12.0",
